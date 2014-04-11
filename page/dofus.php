@@ -8,39 +8,23 @@
 
     <h2>Creer un dofus !</h2>
 
-  <form method='POST' action=''>
-
-  Id
-
-  <input name='id'>
-
-       Id du skin ( de l'item a recopier)
-
-  <input name='idskin'>
-
-  Nom de du dofus
-
-  <input name='nom'>
-
-    Stats
-
-  <input name='stat'><br/><br/>
-
-      level
-
-  <input name='lvl'>
-
-    Prix ( en points boutique)
-
-  <input name='prix'>
-
-    Description de l'item
-
-  <input name='des'>
-
-  <input type='submit' value='creer'>
-
-  </form>
+    <form method='POST'>
+        <label for="id">Veuillez renseigner l'id du Dofus</label>
+        <input type="text" name="id" placeholder = "ID du Dofus">
+        <label for="idskin">Veuillez renseigner l'id du Skin pour l'apparence du Dofus</label>
+        <input type="text" name="idskin" placeholder = "Apparence de l'équipement">
+        <label for="nom">Veuillez renseigner le nom du Dofus</label>
+        <input type="text" name="nom" placeholder= "Nom du Dofus">
+        <label for="stat">Veuillez renseigner les stats du Dofus</label>
+        <input type="text" name="stat" placeholder = "Stats du Dofus">
+        <label for="lvl">Veuillez renseigner le level du Dofus (équipable au level mis)</label>
+        <input type="text" name="lvl" placeholder = "Level du Dofus">
+        <label for="prix">Veuillez renseigner le prix du Dofus</label>
+        <input type="text" name="prix" placeholder = "Prix du Dofus">
+        <label for="des">Décrivez votre Dofus</label>
+        <input type="text" name="des" placeholder = "Description du Dofus"><br>
+        <input type="submit" name="btn" value="Crée le Dofus" class = "btn btn-success">
+    </form>
 
   </Center>
 

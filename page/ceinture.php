@@ -8,38 +8,21 @@
 
     <h2>Creer une ceinture</h2>
 
-  <form method='POST' action=''>
+  <form method='POST'>
 
-  Id
-
-  <input name='id'>
-
-     Id du skin ( de l'item a recopier)
-
-  <input name='idskin'>
-
-  Nom de la ceinture
-
-  <input name='nom'>
-
-  Level
-
-  <input name='lvl'><br/><br/>
-
-  Description de l'item
-
-  <input name='des'>
-
-  Stats
-
-  <input name='stats'>
-
-  Prix ( en points boutique)
-
-  <input name='prix'>
-
-  <input type='submit' value='creer'>
-
+    <label for="id">Veuillez renseigner l'id de la Ceinture</label>
+    <input type="text" name="id" placeholder = "Id de la Ceinture">
+    <label for="idskin">Veuillez renseigner l'id du skin de la Ceinture (apparence de la Ceinture)</label>
+    <input type="text" name="idskin" placeholder = "Apparence de la Ceinture">
+    <label for="nom">Veuillez renseigner le nom de la Ceinture</label>
+    <input type="text" name="nom" placeholder = "Nom de la Ceinture">
+    <label for="stats">Veuillez renseigner les stats de la Ceinture</label>
+    <input type="text" name="stats" placeholder = "Stats de la Ceinture">
+    <label for="prix">Veuillez renseigner le prix de la Ceinture</label>
+    <input type="text" name="prix" placeholder = "Prix de la Ceinture">
+    <label for="des">Décrivez votre Ceinture</label>
+    <input type="text" name="des" placeholder = "Description de la Ceinture"><br>
+    <input type="submit" name="btn" value="Crée la ceinture" class = "btn btn-success">
   </form>
 
   </Center>

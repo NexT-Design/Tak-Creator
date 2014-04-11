@@ -8,38 +8,21 @@
 
     <h2>Creer un bouclier</h2>
 
-  <form method='POST' action=''>
+   <form method='POST'>
 
-  Id
-
-  <input name='id'>
-
-     Id du skin ( de l'item a recopier)
-
-  <input name='idskin'>
-
-  Nom du bouclier
-
-  <input name='nom'>
-
-  Level
-
-  <input name='lvl'><br/><br/>
-
-  Description de l'item
-
-  <input name='des'>
-
-  Stats
-
-  <input name='stats'>
-
-  Prix ( en points boutique)
-
-  <input name='prix'><br><br>
-
-  <input type='submit' value='creer'>
-
+    <label for="id">Veuillez renseigner l'id du Bouclier</label>
+    <input type="text" name="id" placeholder = "Id du Bouclier">
+    <label for="idskin">Veuillez renseigner l'id du skin du Bouclier (apparence du Bouclier)</label>
+    <input type="text" name="idskin" placeholder = "Apparence du Bouclier">
+    <label for="nom">Veuillez renseigner le nom du Bouclier</label>
+    <input type="text" name="nom" placeholder = "Nom du Bouclier">
+    <label for="stats">Veuillez renseigner les stats du Bouclier</label>
+    <input type="text" name="stats" placeholder = "Stats du Bouclier">
+    <label for="prix">Veuillez renseigner le prix du Bouclier</label>
+    <input type="text" name="prix" placeholder = "Prix du Bouclier">
+    <label for="des">Décrivez votre Bouclier</label>
+    <input type="text" name="des" placeholder = "Description du Bouclier"><br>
+    <input type="submit" name="btn" value="Crée le Bouclier" class = "btn btn-success">
   </form>
 
   </Center>

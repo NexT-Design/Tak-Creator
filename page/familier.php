@@ -8,38 +8,22 @@
 
     <h2>Creer un familier !</h2>
 
-  <form method='POST' action=''>
-
-  Id
-
-  <input name='id'>
-
-       Id du skin ( de l'item a recopier)
-
-  <input name='idskin'>
-
-  Nom de du familier
-
-  <input name='nom'>
-
-    Stats
-
-  <input name='stat'><br/><br/>
-
-      level
-
-  <input name='lvl'>
-
-    Prix ( en points boutique)
-
-  <input name='prix'>
-
-    Description de l'item
-
-  <input name='des'>
-
-  <input type='submit' value='creer'>
-
+  <form method="POST">
+    <label for="id">Veuillez renseigner l'id du familier (id dans la base de donnée)</label>
+    <input type="text" name="id" placeholder = "Id du familier">
+    <label for="idskin">Veuillez renseigner l'id de l'apparence du familier soit ID du Skin</label>
+    <input type="text" name="idskin" placeholder = "Apparence du familier">
+    <label for="nom">Veuillez renseigner le nom du familier</label>
+    <input type="text" name="nom" placeholder = "Nom du familier">
+    <label for="stat">Veuillez renseigner les stats du familier</label>
+    <input type="text" name="stat" placeholder = "stats du familier">
+    <label for="lvl">Veuillez renseigner le level du familier (équipable au level mis)</label>
+    <input type="text" name="lvl" placeholder = "Level du familier">
+    <label for="prix">Veuillez renseigner le prix du familier</label>
+    <input type="text" name="prix" placeholder = "prix du familier">
+    <label for="des">Décrivez votre familier</label>
+    <input type="text" name="des" placeholder = "Description de votre familier"><br>
+    <input type="submit" name= "btn" value="Crée le familier" class = "btn btn-success">
   </form>
 
   </Center>

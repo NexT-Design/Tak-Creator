@@ -8,19 +8,18 @@
 
     <h2>Creer un PNJ/NPC</h2>
 
-  <form method='POST' action=''>
-
-    <input type="text" name="id" placeholder="id du PNJ/NPC">
+  <form method='POST'>
     <label for="id">Veuillez renseigner l'id du PNJ/NPC</label>
-    <input type="text" name="name" placeholder = "Nom du NPC">
+    <input type="text" name="id" placeholder="id du PNJ/NPC"><br>
     <label for="name">Veuillez renseigner le nom de NPC</label>
-    <input type="text" name="size" placeholder = "Taille du NPC">
+    <input type="text" name="name" placeholder = "Nom du NPC"><br>
     <label for="size">Veuillez renseigner la taille du NPC</label>
-    <input type="text" name="gfxid" placeholder = "Apparence du NPC">
+    <input type="text" name="size" placeholder = "Taille du NPC"><br>
     <label for="gfxid">Veuillez renseigner l'apparence du NPC</label>
-    <input type="text" name="item" placeholder="id des item que vend le PNJ/NPC">
+    <input type="text" name="gfxid" placeholder = "Apparence du NPC"><br>
     <label for="item">Veuillez renseigner les id des items que vend le PNJ/NPC</label>
-    <input type="submit" name="btn" value="creer">
+    <input type="text" name="item" placeholder="id des item que vend le PNJ/NPC"><br>
+    <input type="submit" name="btn" value="creer" class = 'btn btn-success'>
   </form>
 
   </Center>
@@ -43,7 +42,7 @@ $name = $_POST['name'];
 
 ?> <center><?php echo "INSERT INTO `npc_template` VALUES ('".$id."', '0', '".$gfxid."', '100', '".$size."', '0', '-1', '-1', '-1', '0,0,0,0', '-1', '0', '-1', '".$item."');"; ?> </center><?php
 
-?> <center><?php echo "N.d[".$id."] = {n: ".$item. .$size. .$gfxid. .$name.", a: [3, 5, 6]};"; ?> </center>
-
+?> <center><?php echo "N.d[".$id."] = {n:  '".$item."' , '".$size."' '".$gfxid."' '".$name."', a: [3, 5, 6]};"; ?> </center>
+"
 <?php include('../inc/footer.php'); ?>
 

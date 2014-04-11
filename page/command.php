@@ -8,33 +8,19 @@
 
   <center>
 
-    <h2>Creer une ommande de tp !</h2>
+    <h2>Creer une commande de téléportation !</h2>
 
-    Création command tp
+    <h3>Important ! Conseil : C'est inutile de mettre le . sur le nom de la commande car il est générer automatiquement ! </h3>
 
-      Nom de la command ( ex : pvm1 ne pas mettre de .pvm1 le . sera mis automatiquement)
-
-  <form method='POST' action=''>
-
-  Id
-
-  <input name='id'>
-
-  Nom de la command 
-
-  <input name='nom'>
-
-  Mapid
-
-  <input name='mapid'>
-
-  cellid
-
-  <input name='cellid'>
-
-  <input type='submit' value='creer'>
-
-  </form>
+  <form method='POST'><br>
+  
+  <label for="id">Veuillez renseigner l'id de la commande de Téléportation</label>
+  <input type="text" name="id" placeholder = "id de la commande">
+  <label for="mapid">Veuillez renseigner la MAPID de la commande de Téléportation</label>
+  <input type="text" name="mapid" placeholder = "mapid de la commande">
+  <label for="cellid">Veuillez renseigner la CELLID de la command de Téléportation</label>
+  <input type="text" name="cellid" placeholder = "cellid de la commande"><br>
+  <input type="submit" name="btn" value="Crée la commande" class="btn btn-success">
 
   </Center>
 

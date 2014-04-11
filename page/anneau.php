@@ -8,38 +8,21 @@
 
     <h2>Creer un anneau</h2>
 
-  <form method='POST' action=''>
+   <form method='POST'>
 
-  Id
-
-  <input name='id'>
-
-     Id du skin ( de l'item a recopier)
-
-  <input name='idskin'>
-
-  Nom de l'anneau
-
-  <input name='nom'>
-
-  Level
-
-  <input name='lvl'><br/><br/>
-
-  Description de l'item
-
-  <input name='des'>
-
-  Stats
-
-  <input name='stats'>
-
-  Prix ( en points boutique)
-
-  <input name='prix'>
-
-  <input type='submit' value='creer'>
-
+    <label for="id">Veuillez renseigner l'id de l'Anneau</label>
+    <input type="text" name="id" placeholder = "Id de l'Anneau">
+    <label for="idskin">Veuillez renseigner l'id du skin de l'Anneau (apparence de l'Anneau)</label>
+    <input type="text" name="idskin" placeholder = "Apparence de l'Anneau">
+    <label for="nom">Veuillez renseigner le nom de l'Anneau</label>
+    <input type="text" name="nom" placeholder = "Nom de l'Anneau">
+    <label for="stats">Veuillez renseigner les stats de l'Anneau</label>
+    <input type="text" name="stats" placeholder = "Stats de l'Anneau">
+    <label for="prix">Veuillez renseigner le prix de l'Anneau</label>
+    <input type="text" name="prix" placeholder = "Prix de l'Anneau">
+    <label for="des">Décrivez votre Anneau</label>
+    <input type="text" name="des" placeholder = "Description de l'Anneau"><br>
+    <input type="submit" name="btn" value="Crée l'Anneau" class = "btn btn-success">
   </form>
 
   </Center>

@@ -8,38 +8,21 @@
 
     <h2>Creer une amulette</h2>
 
-  <form method='POST' action=''>
+   <form method='POST'>
 
-  Id
-
-  <input name='id'>
-
-   Id du skin ( de l'item a recopier)
-
-  <input name='idskin'>
-
-  Nom de l'amulette
-
-  <input name='nom'>
-
-  Level
-
-  <input name='lvl'><br/><br/>
-
-  Description de l'item
-
-  <input name='des'>
-
-  Stats
-
-  <input name='stats'>
-
-  Prix ( en points boutique)
-
-  <input name='prix'>
-
-  <input type='submit' value='creer'>
-
+    <label for="id">Veuillez renseigner l'id de l'Amulette</label>
+    <input type="text" name="id" placeholder = "Id de l'Amulette">
+    <label for="idskin">Veuillez renseigner l'id du skin de l'Amulette(apparence de l'Amulette)</label>
+    <input type="text" name="idskin" placeholder = "Apparence de l'Amulette">
+    <label for="nom">Veuillez renseigner le nom de l'Amulette</label>
+    <input type="text" name="nom" placeholder = "Nom de l'Amulette">
+    <label for="stats">Veuillez renseigner les stats de l'Amulette</label>
+    <input type="text" name="stats" placeholder = "Stats de l'Amulette">
+    <label for="prix">Veuillez renseigner le prix de l'Amulette</label>
+    <input type="text" name="prix" placeholder = "Prix de l'Amulette">
+    <label for="des">Décrivez votre Amulette</label>
+    <input type="text" name="des" placeholder = "Description de l'Amulette"><br>
+    <input type="submit" name="btn" value="Crée l'Amulette" class = "btn btn-success">
   </form>
 
   </Center>

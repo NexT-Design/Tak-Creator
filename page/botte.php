@@ -8,38 +8,21 @@
 
     <h2>Creer des bottes !</h2>
 
-  <form method='POST' action=''>
+   <form method='POST'>
 
-  Id
-
-  <input name='id'>
-
-     Id du skin ( de l'item a recopier)
-
-  <input name='idskin'>
-
-  Nom des bottes
-
-  <input name='nom'>
-
-  Level
-
-  <input name='lvl'><br/><br/>
-
-  Description de l'item
-
-  <input name='des'>
-
-  Stats
-
-  <input name='stats'>
-
-  Prix ( en points boutique)
-
-  <input name='prix'>
-
-  <input type='submit' value='creer'>
-
+    <label for="id">Veuillez renseigner l'id des Bottes</label>
+    <input type="text" name="id" placeholder = "Id des Bottes">
+    <label for="idskin">Veuillez renseigner l'id du skin des Bottes (apparence des Bottes)</label>
+    <input type="text" name="idskin" placeholder = "Apparence des Bottes">
+    <label for="nom">Veuillez renseigner le nom des Bottes</label>
+    <input type="text" name="nom" placeholder = "Nom des Bottes">
+    <label for="stats">Veuillez renseigner les stats des Bottes</label>
+    <input type="text" name="stats" placeholder = "Stats des Bottes">
+    <label for="prix">Veuillez renseigner le prix des Bottes</label>
+    <input type="text" name="prix" placeholder = "Prix des Bottes">
+    <label for="des">Décrivez votre pair de Bottes</label>
+    <input type="text" name="des" placeholder = "Description des Bottes"><br>
+    <input type="submit" name="btn" value="Crée la paire" class = "btn btn-success">
   </form>
 
   </Center>

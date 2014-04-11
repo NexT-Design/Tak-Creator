@@ -8,38 +8,21 @@
 
     <h2>Creer une cape</h2>
 
-  <form method='POST' action=''>
+  <form method='POST'>
 
-  Id
-
-  <input name='id'>
-
-     Id du skin ( de l'item a recopier)
-
-  <input name='idskin'>
-
-  Nom de la cape
-
-  <input name='nom'>
-
-  Level
-
-  <input name='lvl'><br/><br/>
-
-  Description de l'item
-
-  <input name='des'>
-
-  Stats
-
-  <input name='stats'>
-
-  Prix ( en points boutique)
-
-  <input name='prix'><br><br>
-
-  <input type='submit' value='creer'>
-
+    <label for="id">Veuillez renseigner l'id de la Cape</label>
+    <input type="text" name="id" placeholder = "Id de la Cape">
+    <label for="idskin">Veuillez renseigner l'id du skin de la cape(apparence de la Cape)</label>
+    <input type="text" name="idskin" placeholder = "Apparence de la Cape">
+    <label for="nom">Veuillez renseigner le nom de la Cape</label>
+    <input type="text" name="nom" placeholder = "Nom de la Cape">
+    <label for="stats">Veuillez renseigner les stats de la Cape</label>
+    <input type="text" name="stats" placeholder = "Stats de la Cape">
+    <label for="prix">Veuillez renseigner le prix de la Cape</label>
+    <input type="text" name="prix" placeholder = "Prix de la Cape">
+    <label for="des">Décrivez votre Cape</label>
+    <input type="text" name="des" placeholder = "Description de la Cape"><br>
+    <input type="submit" name="btn" value="Crée la Cape" class = "btn btn-success">
   </form>
 
   </Center>

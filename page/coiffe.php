@@ -6,40 +6,23 @@
   
   <center>
 
-    <h2>Creer une coiffe</h2>
+    <h2>Creer une Coiffe</h2>
 
-  <form method='POST' action=''>
+  <form method='POST'>
 
-  Id
-
-  <input name='id'>
-
-     Id du skin ( de l'item a recopier)
-
-  <input name='idskin'>
-
-  Nom de la coiffe
-
-  <input name='nom'>
-
-  Level
-
-  <input name='lvl'><br/><br/>
-
-  Description de l'item
-
-  <input name='des'>
-
-  Stats
-
-  <input name='stats'>
-
-  Prix ( en points boutique)
-
-  <input name='prix'>
-
-  <input type='submit' value='creer'>
-
+    <label for="id">Veuillez renseigner l'id de la Coiffe</label>
+    <input type="text" name="id" placeholder = "Id de la Coiffe">
+    <label for="idskin">Veuillez renseigner l'id du skin de la coiffe (apparence de la Coiffe)</label>
+    <input type="text" name="idskin" placeholder = "Apparence de la Coiffe">
+    <label for="nom">Veuillez renseigner le nom de la Coiffe</label>
+    <input type="text" name="nom" placeholder = "Nom de la Coiffe">
+    <label for="stats">Veuillez renseigner les stats de la Coiffe</label>
+    <input type="text" name="stats" placeholder = "Stats de la Coiffe">
+    <label for="prix">Veuillez renseigner le prix de la Coiffe</label>
+    <input type="text" name="prix" placeholder = "Prix de la Coiffe">
+    <label for="des">Décrivez votre Coiffe</label>
+    <input type="text" name="des" placeholder = "Description de la Coiffe"><br>
+    <input type="submit" name="btn" value="Crée la coiffe" class = "btn btn-success">
   </form>
 
   </Center>
