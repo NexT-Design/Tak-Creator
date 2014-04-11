@@ -6173,6 +6173,10 @@ a.badge:focus {
   background-repeat: no-repeat;
   background-position: center;
 }
+#haut:hover
+{
+  background-image : url(../img/head-hover.png);
+}
 #footer
 {
   position: relative;

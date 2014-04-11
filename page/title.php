@@ -38,3 +38,4 @@ $name = $_POST['nom'];
 
 ?> <center><?php echo "PT[$id] = {t: '$name', c: 16777215, pt: 0};"; ?> </center>
 
+<?php include('../inc/footer.php'); ?>

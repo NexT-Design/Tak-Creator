@@ -70,5 +70,4 @@ $des = $_POST['des'];
 
 ?> <center><?php echo "I.u[$id] = {n: '$nom', t: 9, d: '$des.', ep: 1, g: $idskin, l: $lvl, wd: true, fm: true, w: 4, p: $prix};"; ?> </center>
 
-
-
+<?php include('../inc/footer.php'); ?>

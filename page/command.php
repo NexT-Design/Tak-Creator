@@ -54,5 +54,5 @@ $cellid = $_POST['cellid'];
 
 ?> <center><?php echo "INSERT INTO `commands` VALUES ('$id', '$nom', '38-$mapid,$cellid', '', '0');"; ?> </center>
 
-
+<?php include('../inc/footer.php'); ?>
 

@@ -71,3 +71,4 @@ $idskin = $_POST['idskin'];
 "; ?> </center>
 
 <center><?php echo "I.u[$id] = {n: '$name', t: 18, d: '$des .', ep: 1, g: $idskin, l: $lvl, wd: true, fm: true, w: 4, p: $prix};"?> </center>
+<?php include('../inc/footer.php'); ?>

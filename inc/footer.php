@@ -1,1 +1,1 @@
-<div id="footer">Copyright © Tak-Creator Code by NexT & Takylo & Design by NexT.
+<center><div id="footer">Copyright © Tak-Creator Code by NexT & Takylo & Design by NexT.</center>
